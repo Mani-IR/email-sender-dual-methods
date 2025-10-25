@@ -94,8 +94,8 @@ Here's a list:
 - Item 3
 """
 send_html_email(
-    "maniajorloo23333@gmail.com",
-    "maniajorloo23333@gmail.com",
+    "your@gmail.com",
+    "your@gmail.com",
     "HTML Email Test",
     html_content,
     text_content,
@@ -120,7 +120,7 @@ Example code snippet (as provided):
 import yagmail
 
 yag = yagmail.SMTP(
-    "maniajorloo23333@gmail.com",
+    "your@gmail.com",
     "bynh gmje oktn zoya"  # Replace with your app password
 )
 
@@ -182,5 +182,6 @@ This sends a mixed-content email with text, HTML, and an attachment.
 Choose `smtplib` for production or dependency-free scripts, and `yagmail` for ease and quick development.
 
 ## License
+
 
 This script is provided as-is under the MIT License. Feel free to modify and use it!
